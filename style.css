@@ -1,0 +1,113 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.m-t{
+    margin-top: 2%;
+}
+.temp{
+    font-size: 20px;
+}
+.cen{
+    justify-content: center;
+    align-items: center;
+        
+}
+.cen-col{
+    display: flex;
+    justify-content: center;
+}
+.temp{
+    margin-top: 15px;
+}
+figure{
+    height:165px;
+    width:165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(134, 18, 18);
+    border-radius: 3px;
+}
+.bg-dark{
+    background-color: black;
+}
+.redir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height:30px !important;
+    width:100% !important;
+    background-color: rgb(61, 37, 37);
+}
+.redir a{
+    color:aliceblue;
+}
+.redir:hover a:hover{
+    color:rgb(248, 188, 188);
+    text-decoration: none;
+}
+.und{
+    padding-left: 10px;
+    color: rgb(78, 26, 126);
+    font-size: 30px;
+}
+.bg-info{
+    background-color: transparent;
+}
+p{
+    font-size: 23px;
+}
+hr{
+    border: 3px solid rgb(85, 84, 173);
+}
+pre{
+    
+    text-align: center;
+    display: flex;
+    width: fit-content;
+    font-size: 30px;
+    border: 0px;
+}
+.fa:hover{
+    text-decoration: none;
+}
+.bg-grey{
+    height:20px;
+    width:150px;
+    background-color: rgb(224, 218, 218);
+    border-radius: 12px;
+}
+.name{
+    font-weight: bolder;
+    color: rgb(13, 66, 165);
+}
+.coll{
+    margin-top: 10px;
+    margin-left: 10px;
+    border:0px!important;
+    box-shadow: 5px 5px 14px 0 rgba(95, 93, 93, 0.452);
+    border-radius: 5%;
+    overflow: hidden;
+}
+.fle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: -5px 5px 14px 0 rgba(95, 93, 93, 0.452),5px -5px 13px 3px lightgrey;
+}
+input{
+    font-family: FontAwesome, sans-serif;
+}
+form{
+    margin-top: 0px;
+}
+.btn{
+    margin-top: 20px;
+}
+input[type="submit"]{
+    float: right;
+}
